@@ -2,6 +2,14 @@ body {
   overflow-x: hidden;
 }
 
+.ulMenu1 {
+  display: block;
+}
+
+.ulMenu2 {
+  display: block;
+}
+
 .section1 {
   height: 100vh;
   width: 100%;
@@ -72,6 +80,15 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  .ulMenu1 {
+    display: none;
+  }
+
+  .ulMenu2 {
+    display: none;
+  }
+}
 .cardMenu2 {
   height: 70px !important;
   display: flex;
@@ -230,6 +247,9 @@ body {
 }
 .diving .divingInform a:hover {
   text-shadow: 0 5px 6px brgba(63, 55, 55, 0.753);
+  border-radius: 10px;
+  background-color: rgba(54, 54, 54, 0.582);
+  color: white;
 }
 
 .kids {

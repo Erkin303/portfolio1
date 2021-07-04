@@ -93,6 +93,9 @@ body{
         ul{
             display: none;
         }
+        a{
+            opacity: 0;
+        }
     }
     .cardMenu1{
         background-color:none;
@@ -106,6 +109,7 @@ body{
     justify-content: space-between;
     a{
         color: white;
+        opacity: 1;
         text-decoration: none;
         &:hover{
             text-decoration: none;

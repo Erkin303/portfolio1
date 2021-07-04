@@ -1,0 +1,325 @@
+body{
+    overflow-x: hidden;
+}
+//section 1 style lari
+
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-image:url("https://images.unsplash.com/photo-1516815231560-8f41ec531527?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbGRpdmVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .boros{
+        margin-top: 70px;      
+        background-color: rgba(255, 255, 255, 0.342);
+        border-radius: 40px;
+        padding: 10px;
+    }
+    .boros2{
+        display: flex;
+        justify-content: center;
+    }
+   
+}
+.iher{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.cardMenu1{
+    position: sticky;
+    top: 0;
+    left: 0;
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            transition: 0.2s;
+            text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.35);
+            color: white;
+        }
+    }
+    .menu1awsome{
+        color: rgb(172, 219, 238);
+        font-size: 20px;
+    }
+
+    height: 50px !important;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(21, 76, 226, 0.692);
+    .form-contro{
+        border-radius: 7px;
+        border:0;
+        padding: 3px;
+        margin:0 5px;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        li{
+            margin: 5px 10px;
+            p{
+                font-size: 14px;
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-family: 'Noto Sans JP', sans-serif;
+            }
+        }
+       
+    }
+}
+
+.cardMenu2{
+    height: 70px !important;
+    display: flex;
+    justify-content: space-between;
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            transition: 0.2s;
+            text-shadow: 2px 7px 11px rgba(0, 0, 0, 0.35);
+            color: white;
+        }  
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        li{
+            margin: 5px 10px;
+            p{
+                font-size: 14px;
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-family: 'Noto Sans JP', sans-serif;
+            }
+        }
+       
+    }
+}
+
+//swiper styles
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+// section2
+
+.section2{
+    margin: 30px 0;
+    padding: 30px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.myluxurytravel.fr/wp-content/uploads/2017/07/Maldives-Constance-Halaveli-palmiers.jpg");
+
+    .row2{
+background-image: linear-gradient(45deg,rgba(30, 192, 30, 0.678),rgba(147, 229, 240, 0.787),rgba(22, 63, 197, 0.541));        padding: 15px;
+        border-radius: 15px;
+    }
+}
+.nav-link{
+    color: white;
+}
+
+.tab-content{
+    margin-top: 30px;
+    height: auto;
+    .inTabLeft{
+        margin: 30px 0;
+    }
+    .inTabright{
+        margin: 15px;
+    }
+}
+.carousel-inner{
+    margin: 15px;
+}
+
+
+
+// section 3
+.section3{
+    padding: 50px 0;
+    background-image: linear-gradient(45deg,rgba(15, 60, 158, 0.74), white);
+}
+.asosiyImg{
+    margin: 0;
+    padding: 0;
+    .col-lg-4{
+        overflow: hidden;
+
+    }
+}
+.diving{
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+    &:hover{
+    opacity:0.8 ;  
+}
+
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.7s;
+
+    }
+    .divingImg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .divingInform{
+        color: white;
+        position: relative;
+        bottom: 230px;
+        margin: 10px 30px;
+        left: 0;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            &:hover{
+                text-shadow: 0 5px 6px brgba(63, 55, 55, 0.753);
+            }
+        }
+    }
+}
+
+//section 4
+
+.kids{
+    color: rgb(181, 184, 21);
+    font-family: 'Indie Flower', cursive;
+}
+
+.section4{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/4390616/thumb/1.jpg");
+    background-size: cover;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.342);
+    padding: 50px 0;
+    .kr{
+        position: relative;
+  
+    }
+    .m-3{
+        position: relative;
+        .palma{
+            position: relative;
+            top: 0;
+            right: 20px;
+            img{
+                width: 60px;
+            }
+        }
+    }
+    .kidsImg{
+        position: relative;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 15px;
+        width: 98%;
+        &:hover{
+            transition: 0.3s;
+            opacity: 0.7;
+            .kidsInform{
+                opacity: 1;
+                transition: 0.3s;
+            }
+        }
+        img{
+            border-radius: 15px;
+        }
+        .kidsInform{
+            color: rgb(10, 10, 6);
+            padding: 15px;
+            position: absolute;
+            bottom: 0;
+            left: 10px;
+            opacity: 0;
+            p{
+                font-weight: bolder;
+            }
+
+        }
+    }
+    .palmakids{
+        position: relative;
+        .kids2{
+            position:absolute;
+            top: 0;
+            right: 90px;
+            img{
+                width: 100px;
+                border-radius: 560%;
+            }
+        }
+    }
+  
+}
+
+.kidsVideo{
+    video{
+        width: 100%;
+        margin: 10px;
+        border-radius: 15px;
+    }
+}

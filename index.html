@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <!-- aimatsiya -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- google fots -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- section 1: menu  -->
+
+    <div class="section1">
+
+        <div class="cardMenu1">
+            <div class="ulMenu1">
+                <ul>
+                    <li>
+                        <p> <span class="menu1awsome"><i class="fas fa-globe-asia"></i></span>
+                            <select name="language" id="language" class="form-contro mt-1">
+                                <option value="">UZB</option>
+                                <option value="">RUS</option>
+                                <option value="">ENG</option>
+                            </select>
+                        </p>
+                    </li>
+                    <li>
+                        <p><a href=""><span class="menu1awsome"><i class="fas fa-hotel"></i></span> Some information</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p><a href=""><span class="menu1awsome"><i class="far fa-id-badge"></i></span> contact</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="ulMenu2 me-3">
+                <ul>
+                    <li>
+                        <p><a href=""> <span class="menu1awsome"><i class="fab fa-trello"></i></span> advantage</a></p>
+                    </li>
+                    <li>
+                        <p> <a href=""><span class="menu1awsome"><i
+                                        class="fas fa-map-marker-alt"></i></span><span>map</span></a></p>
+                    </li>
+                    <li>
+                        <p> <a href=""><span class="menu1awsome"><i class="fas fa-ticket-alt"></i></span> offers</a></p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="cardMenu2">
+            <div>
+                <ul>
+                    <li>
+                        <a href="#villas">VILLAS</a>
+                    </li>
+                    <li>
+                        <a href="">DIVNING</a>
+                    </li>
+                    <li>
+                        <a href="">SPA&WELLNES</a>
+                    </li>
+                    <li>
+                        <a href="">OFFERS</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">ROMANCE</a>
+                    </li>
+                    <li>
+                        <a href="">EXPERIENCES</a>
+                    </li>
+                    <li>
+                        <a href="">GALLERY</a>
+                    </li>
+                    <li>
+                        <a href="">INFORMATION</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="boros2">
+                <img src="http://universalimagesonline.com/baros/logo/Baros.png" class="boros" alt="rasm">
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <p class="iher">BAROS MALDIVES</p>
+            <p class="text-center text-light fs-3">A castaway atoll, the essence of the Maldives</p>
+
+        </div>
+    </div>
+
+
+    <!-- section 2: tabs -->
+
+    <div class="section2" id="villas">
+        <div class="container">
+            <div class="row row2">
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <!-- buttonlar -->
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">Villas</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Meal</button>
+                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Landscape</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12">
+                                    <div class="inTabLeft">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="http://universalimagesonline.com/baros/logo/Baros.png" alt="">
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-warning text-center"><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                        </div>
+                                        <p class="fs-2 fw-bold text-center m-3">
+                                            Villas
+                                        </p>
+                                        <p>
+                                            Maldivian cuisine also features a variety of delectable specialty dishes,
+                                            prepared with fresh fish, chicken and meat, and fresh local fruits and
+                                            vegetables. ... Prepared with smoked tuna, grated coconut, chopped chili
+                                            peppers, ginger and rice, the fish cake is also eaten as a short-eat during
+                                            evening tea.
+                                        </p>
+                                        <p class="text-center"><button class="btn btn-primary">Information</button></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+
+                                    <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://www.rentalescapes.com/images/properties/124030/original/124030_15766091530016_original.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2f/ce/maldives.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://camilacoelho.com/wp-content/uploads/2016/11/Maldivas-ou-Tahiti-camila-coelho-colaboradora-viagem3.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/09/fbi-for-maldives-villa.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12">
+                                    <div class="inTabLeft">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="http://universalimagesonline.com/baros/logo/Baros.png" alt="">
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-warning text-center"><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                        </div>
+                                        <p class="fs-2 fw-bold text-center m-3">
+                                            Meal
+                                        </p>
+                                        <p>
+                                            Maldivian cuisine also features a variety of delectable specialty dishes,
+                                            prepared with fresh fish, chicken and meat, and fresh local fruits and
+                                            vegetables. ... Prepared with smoked tuna, grated coconut, chopped chili
+                                            peppers, ginger and rice, the fish cake is also eaten as a short-eat during
+                                            evening tea.
+                                        </p>
+                                        <p class="text-center"><button class="btn btn-primary">Information</button></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+
+                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://www.best-country.com/images/others/1568646060_Maldives-Traditional-Food.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Maldivian_dish_-_Kandu_Kulkulhu_03.jpg/640px-Maldivian_dish_-_Kandu_Kulkulhu_03.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Tempura%2C_sashimi%2C_pickles%2C_ris_og_misosuppe_%286289116752%29.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://medmunch.com/wp-content/uploads/2020/12/Maldives-Food.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12">
+                                    <div class="inTabLeft">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="http://universalimagesonline.com/baros/logo/Baros.png" alt="">
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <p class="text-warning text-center"><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                        </div>
+                                        <p class="fs-2 fw-bold text-center m-3">
+                                            Landscape
+                                        </p>
+                                        <p>
+                                            Best Hotels in Maldives from Your Favourite Sites. Find Your Perfect Hotel
+                                            Fast! HomeToGo®: Easy Multi-Site Price Comparison. Search and Save up to 75%
+                                            Now! Hotel Price Comparison. No Booking Fees. Hotel Search Engine. Best
+                                            Price Guarantee.
+                                        </p>
+                                        <p class="text-center"><button class="btn btn-primary">Information</button></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://manfrottoimaginemore.com/site/uploads/2016/03/Alessandro-Carpentiero-01-Tramonto-Outrigger.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://elliotrockeestate.com.au/wp-content/uploads/2020/07/pexels-photo-1450363.jpeg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://www.wallpaperflare.com/static/999/23/589/maldives-island-landscape-ari-wallpaper.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://www.ministryofvillas.com/wp-content/uploads/2018/10/maldives-lilybeachresort-17.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 3:aboute diving,many img -->
+
+    <div class="section3">
+        <div class="container">
+            <div class="row asosiyImg">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="diving">
+                        <img src="https://www.planetdiveholidays.com/blog/wp-content/uploads/sites/3/2017/09/amilla-dive.jpg"
+                            alt="" class="divingImg">
+                        <div class="divingInform divingInform2 ">
+                            <p class="fw-bold fs-3 ">Diving</p>
+                            <p>Find maldives diving stock images in HD and millions of other royalty-free stock
+                                photos,
+                                illustrations and vectors in the Shutterstock collection</p>
+                            <p><a href="https://www.gettyimages.com/photos/maldives-diving">Inform</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="diving">
+                        <img src="https://images.unsplash.com/photo-1544551763-8dd44758c2dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+                            alt="" class="divingImg">
+                        <div class="divingInform divingInform2">
+                            <p class="fw-bold fs-3 ">Diving</p>
+                            <p>Find maldives diving stock images in HD and millions of other royalty-free stock
+                                photos,
+                                illustrations and vectors in the Shutterstock collection</p>
+                            <p><a href="https://www.gettyimages.com/photos/maldives-diving">Inform</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="diving">
+                        <img src="https://www.telegraph.co.uk/content/dam/luxury/2018/06/04/GettyImages-82133426_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf9dM_SPWC5lGyNL6Gekxggo.jpg"
+                            alt="" class="divingImg">
+                        <div class="divingInform divingInform2">
+                            <p class="fw-bold fs-3 ">Diving</p>
+                            <p>Find maldives diving stock images in HD and millions of other royalty-free stock
+                                photos,
+                                illustrations and vectors in the Shutterstock collection</p>
+                            <p><a
+                                    href="https://media.gettyimages.com/photos/full-length-of-young-woman-scuba-diving-in-sea-picture-id1154367202">Inform</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- section 4: wellns -->
+
+    <div class="section4 mt-3 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="m-3 kidsImg">
+                        <img src="https://themaldivesexpert.com/wp-content/uploads/2018/04/JA-Manafaru1.jpg"
+                            class="w-100" alt="">
+                        <div class="kidsInform">
+                            <p class="fw-bold text-dark fs-2">Many games on the beach</p>
+                            <p class="fw-bolder">A day at the beach doesn't need to be stressful or expensive. With
+                                these
+                                easy beach
+                                activities for kids, you'll never be bored at the shore again!</p>
+                        </div>
+                    </div>
+                    <div class="m-3 kidsVideo">
+                        <video src="maldivev.mp4" controls></video>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-sm-12 palmakids">
+                    <div class="m-3 kids kr">
+                        <div class="kids2">
+                            <img src="https://img.pngio.com/best-beach-ball-cartoons-illustrations-royalty-free-vector-beach-ball-cartoon-612_612.jpg"
+                                alt="">
+                        </div>
+                        <p class="fs-1 fw-bold text-light">Maldives for Kids</p>
+                        <p class="fs-3 mt-5 text-light">The Maldives, a blue, paradisical lagoon, are often associated
+                            with the
+                            pleasures of seaside
+                            resorts. However, the daily life of the people contrasts radically with that of its
+                            tourists. This disconcerting paradox demands particular attention, especially in the area of
+                            Children’s Rights. Five years ago, government efforts were undertaken in the aftermath of a
+                            natural catastrophe caused by a tsunami; however, the situation remains worrisome.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>

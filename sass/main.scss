@@ -79,42 +79,42 @@ body{
     }
 }
 
-@media  screen and (max-width:730px){
-    .ulMenu1{
-        display: none;
-    }
-    .ulMenu2{
-        display: none;
-    }
-    .cardMenu2{
-        display: none;
-        ul{
-            display: none;
-        }
-        a{
-            opacity: 0;
-        }
-    }
-    .cardMenu1{
-        // background-color:white;
-        // color: white;
-    display: none;
-    }
-    .diving{
-        width: 400px;
-        height: 400px;
-        .divingImg{
-            width: 90%;
-            height: 90%;
-        }
-        .divingInform{
-        position: relative;
-        bottom: 270px;
-        margin: 10px 30px;
-        left: 10px;
-        }
-    }
-}
+// @media  screen and (max-width:730px){
+//     .ulMenu1{
+//         display: none;
+//     }
+//     .ulMenu2{
+//         display: none;
+//     }
+//     .cardMenu2{
+//         display: none;
+//         ul{
+//             display: none;
+//         }
+//         a{
+//             opacity: 0;
+//         }
+//     }
+//     .cardMenu1{
+//         // background-color:white;
+//         // color: white;
+//     display: none;
+//     }
+//     .diving{
+//         width: 400px;
+//         height: 400px;
+//         .divingImg{
+//             width: 90%;
+//             height: 90%;
+//         }
+//         .divingInform{
+//         position: relative;
+//         bottom: 270px;
+//         margin: 10px 30px;
+//         left: 10px;
+//         }
+//     }
+// }
 
 .cardMenu2{
 

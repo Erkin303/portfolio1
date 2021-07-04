@@ -36,9 +36,12 @@ body{
     text-align: center;
 }
 .cardMenu1{
-    position: sticky;
+    position: absolute;
     top: 0;
     left: 0;
+    height: 50px !important;
+    display: flex;
+    justify-content: space-between;
     a{
         color: white;
         text-decoration: none;
@@ -53,10 +56,6 @@ body{
         color: rgb(172, 219, 238);
         font-size: 20px;
     }
-
-    height: 50px !important;
-    display: flex;
-    justify-content: space-between;
     .form-contro{
         border-radius: 7px;
         border:0;

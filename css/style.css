@@ -80,13 +80,21 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
   .ulMenu1 {
     display: none;
   }
 
   .ulMenu2 {
     display: none;
+  }
+
+  .cardMenu2 {
+    display: none;
+  }
+
+  .cardMenu1 {
+    background-color: none;
   }
 }
 .cardMenu2 {

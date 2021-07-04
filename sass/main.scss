@@ -3,6 +3,13 @@ body{
 }
 //section 1 style lari
 
+.ulMenu1{
+    display: block;
+}
+.ulMenu2{
+    display: block;
+}
+
 .section1{
     height: 100vh;
     width: 100%;
@@ -72,6 +79,16 @@ body{
         }
        
     }
+}
+
+@media  screen and (max-width:400px) and {
+    .ulMenu1{
+        display: none;
+    }
+    .ulMenu2{
+        display: none;
+    }
+
 }
 
 .cardMenu2{

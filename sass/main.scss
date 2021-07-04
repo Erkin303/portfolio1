@@ -89,7 +89,7 @@ body{
         display: none;
     }
     .cardMenu2{
-        display: none;
+        display: block;
         ul{
             display: none;
         }
@@ -104,6 +104,7 @@ body{
 }
 
 .cardMenu2{
+
     height: 70px !important;
     display: flex;
     justify-content: space-between;

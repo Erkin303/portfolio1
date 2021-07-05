@@ -37,7 +37,7 @@ body {
 }
 
 .cardMenu1 {
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   height: 50px !important;
@@ -79,6 +79,44 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+@media screen and (max-width: 730px) {
+  .ulMenu1 {
+    display: none;
+  }
+
+  .ulMenu2 {
+    display: none;
+  }
+
+  .cardMenu2 {
+    display: block;
+  }
+  .cardMenu2 .menua {
+    display: none !important;
+  }
+  .cardMenu2 .menub {
+    display: none;
+  }
+
+  .cardMenu1 {
+    display: none;
+  }
+
+  .diving {
+    width: 400px;
+    height: 400px;
+  }
+  .diving .divingImg {
+    width: 90%;
+    height: 90%;
+  }
+  .diving .divingInform {
+    position: relative;
+    bottom: 270px;
+    margin: 10px 30px;
+    left: 10px;
+  }
+}
 .cardMenu2 {
   height: 70px !important;
   display: flex;
@@ -112,6 +150,7 @@ body {
 
 html,
 body {
+  overflow-x: hidden;
   position: relative;
   height: 100%;
 }
@@ -162,131 +201,191 @@ body {
 }
 
 .section2 {
-  margin: 30px 0;
   padding: 30px 10px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://www.myluxurytravel.fr/wp-content/uploads/2017/07/Maldives-Constance-Halaveli-palmiers.jpg");
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.685), rgba(202, 201, 201, 0.767), white);
 }
 .section2 .row2 {
-  background-image: linear-gradient(45deg, rgba(30, 192, 30, 0.678), rgba(147, 229, 240, 0.787), rgba(22, 63, 197, 0.541));
+  background-image: linear-gradient(45deg, rgba(30, 192, 130, 0.678), rgba(206, 243, 248, 0.787), rgba(67, 123, 226, 0.541));
   padding: 15px;
   border-radius: 15px;
+  box-shadow: 0 5px 7px 5px rgba(51, 51, 51, 0.685);
 }
-
-.nav-link {
+.section2 .nav-link {
   color: white;
 }
-
-.tab-content {
+.section2 .tab-content {
   margin-top: 30px;
   height: auto;
 }
-.tab-content .inTabLeft {
+.section2 .tab-content .inTabLeft {
   margin: 30px 0;
 }
-.tab-content .inTabright {
+.section2 .tab-content .inTabright {
+  margin: 15px;
+}
+.section2 .carousel-inner {
   margin: 15px;
 }
 
-.carousel-inner {
-  margin: 15px;
+@media screen and (max-width: 700px) {
+  .img3main {
+    height: 480px !important;
+  }
 }
-
 .section3 {
-  padding: 50px 0;
-  background-image: linear-gradient(45deg, rgba(15, 60, 158, 0.74), white);
+  background-image: url("https://i.pinimg.com/originals/8a/92/e4/8a92e4d2472d2b20ec05bfff308036ec.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.asosiyImg {
-  margin: 0;
-  padding: 0;
+.section3 .inf3 p {
+  text-shadow: 2px 2px #000000bb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.asosiyImg .col-lg-4 {
-  overflow: hidden;
-}
-
-.diving {
-  width: 100%;
-  height: 100%;
-  margin: 30px 0;
-}
-.diving:hover {
-  transform: scale(1.1);
-  transition: 0.7s;
-  opacity: 0.8;
-}
-.diving .divingImg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-}
-
-.diving .divingInform {
-  color: white;
+.section3 .img3main {
   position: relative;
-  bottom: 270px;
-  margin: 10px 30px;
-  left: 0;
-}
-.diving .divingInform a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-.diving .divingInform a:hover {
-  text-shadow: 0 5px 6px brgba(63, 55, 55, 0.753);
+  height: 620px;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: white;
+  width: 100%;
   border-radius: 10px;
-  background-color: rgba(54, 54, 54, 0.582);
-  color: white;
+  box-shadow: 0 2px 2px 2px rgba(68, 131, 146, 0.164);
 }
-
-.kids {
-  color: #b5b815;
-  font-family: "Indie Flower", cursive;
+.section3 .img3main:hover {
+  box-shadow: 0 3px 3px 3px rgba(68, 131, 146, 0.164);
+  transform: translateY(-15px) !important;
+  transition: 0.3s;
+}
+.section3 .img3main a {
+  color: #0a0a0a;
+  font-weight: 400;
+  text-decoration: none;
+}
+.section3 .img3main a:hover {
+  color: #a6c300;
+  transition: 0.3s;
+}
+.section3 .img3main .img3 {
+  text-align: center;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  box-shadow: 0 3px 3px 4px rgba(54, 54, 54, 0.424);
+  border-radius: 10px;
+}
+.section3 .img3main .img3:hover {
+  box-shadow: 0 4px 5px 6px rgba(54, 54, 54, 0.424);
+  transition: 0.3s;
+}
+.section3 .img3main p {
+  margin: 0 20px;
+}
+.section3 .img3main .scubaDiving {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+}
+.section3 .img3main .scubaDiving img {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .section4 {
-  background-image: url("https://ak.picdn.net/shutterstock/videos/4390616/thumb/1.jpg");
+  margin: 10px 0;
+  height: 100%;
+  display: flex;
+}
+.section4 .text4 {
+  font-size: 50px;
+  color: #003d9e;
+  font-weight: bold;
+}
+.section4 p {
+  color: #003d9e;
+}
+.section4 .rasmvayozuv {
+  display: inline-block !important;
+}
+.section4 .rasmvayozuv p {
+  display: inline-block !important;
+}
+.section4 .blocklar .chap {
+  display: inline-block;
+  text-align: center;
+  height: 100px;
+  margin: 10px;
+}
+.section4 .blocklar .chap .chap2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section4 .blocklar .ong {
+  display: inline-block;
+  height: 100%;
+  width: 70%;
+}
+.section4 .fishWeight {
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(21, 109, 250, 0.774);
+  color: white;
+  border-radius: 50%;
+}
+.section4 .imgkl img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section5 {
+  background-image: url("https://static8.depositphotos.com/1007963/848/i/600/depositphotos_8482954-stock-photo-sailing-boats-on-the-beautiful.jpg");
   background-size: cover;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.342);
   padding: 50px 0;
 }
-.section4 .kr {
+.section5 .kr {
   position: relative;
 }
-.section4 .m-3 {
+.section5 .m-3 {
   position: relative;
 }
-.section4 .m-3 .palma {
+.section5 .m-3 .palma {
   position: relative;
   top: 0;
   right: 20px;
 }
-.section4 .m-3 .palma img {
+.section5 .m-3 .palma img {
   width: 60px;
 }
-.section4 .kidsImg {
+.section5 .kidsImg {
   position: relative;
   padding: 10px;
   border-radius: 15px;
   margin: 15px;
   width: 98%;
 }
-.section4 .kidsImg:hover {
+.section5 .kidsImg:hover {
   transition: 0.3s;
   opacity: 0.7;
 }
-.section4 .kidsImg:hover .kidsInform {
+.section5 .kidsImg:hover .kidsInform {
   opacity: 1;
   transition: 0.3s;
 }
-.section4 .kidsImg img {
+.section5 .kidsImg img {
   border-radius: 15px;
 }
-.section4 .kidsImg .kidsInform {
+.section5 .kidsImg .kidsInform {
   color: #0a0a06;
   padding: 15px;
   position: absolute;
@@ -294,23 +393,22 @@ body {
   left: 10px;
   opacity: 0;
 }
-.section4 .kidsImg .kidsInform p {
+.section5 .kidsImg .kidsInform p {
   font-weight: bolder;
 }
-.section4 .palmakids {
+.section5 .palmakids {
   position: relative;
 }
-.section4 .palmakids .kids2 {
+.section5 .palmakids .kids2 {
   position: absolute;
   top: 0;
   right: 90px;
 }
-.section4 .palmakids .kids2 img {
+.section5 .palmakids .kids2 img {
   width: 100px;
   border-radius: 560%;
 }
-
-.kidsVideo video {
+.section5 .kidsVideo video {
   width: 100%;
   margin: 10px;
   border-radius: 15px;

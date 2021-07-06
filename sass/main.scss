@@ -5,6 +5,7 @@ body{
 
 .ulMenu1{
     display: block;
+    font-size: 20px;
 }
 .ulMenu2{
     display: block;
@@ -59,6 +60,7 @@ body{
     .menu1awsome{
         color: rgb(172, 219, 238);
         font-size: 20px;
+        margin-right: 5px;
     }
     .form-contro{
         border-radius: 7px;
@@ -83,7 +85,7 @@ body{
     }
 }
 
-@media  screen and (max-width:730px){
+@media  screen and (max-width:780px){
     .smmenu{
         display: block !important;
     }
@@ -211,7 +213,7 @@ body {
     padding: 30px 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(45deg,rgb(207, 207, 207),rgb(202, 201, 201),white);
+    background-image: url("https://media.istockphoto.com/photos/the-gray-and-silver-are-light-black-with-white-the-gradient-is-the-picture-id1257367584?b=1&k=6&m=1257367584&s=170667a&w=0&h=xCJhP9RRYYYx-d2yX0HhFvnsGAuTAQA4EI-LfN9OcQc=");
     .row2{
     background-image: linear-gradient(45deg,rgba(30, 192, 130, 0.678),rgba(206, 243, 248, 0.787),rgba(67, 123, 226, 0.541));        padding: 15px;
         border-radius: 15px;
@@ -367,8 +369,9 @@ body {
 
 //section 5
 .section5{
-    background-image: url("https://static8.depositphotos.com/1007963/848/i/600/depositphotos_8482954-stock-photo-sailing-boats-on-the-beautiful.jpg");
+    background-image: url("https://image.freepik.com/free-vector/abstract-minimal-white-background_23-2148887988.jpg");
     background-size: cover;
+    backdrop-filter: 10;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.342);
     padding: 50px 0;
@@ -445,7 +448,7 @@ footer{
     position: sticky;
     bottom: 0;
     right: 0;
-    padding: 30px 0;
+    padding: 50px 0;
     z-index: -1;
     a{
         text-decoration: none;
@@ -585,9 +588,11 @@ $z-mid: 0;
 // sction 6
 .section6{
     padding: 30px 0;
-    background-color: rgb(189, 189, 189);
+   background-image: url("https://wallpaperaccess.com/full/1098480.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
     .container{
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.534);
         padding: 15px;
         border-radius: 15px;
         box-shadow: 0 4px 3px 5px rgba(46, 46, 46, 0.438);
@@ -598,6 +603,9 @@ $z-mid: 0;
         }
         .btn{
             margin-top: 30px !important;
+        }
+        label{
+            font-weight: bold !important;
         }
     }
 }

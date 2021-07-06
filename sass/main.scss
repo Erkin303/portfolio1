@@ -582,4 +582,24 @@ $z-mid: 0;
 }
 
 
+// sction 6
+.section6{
+    padding: 30px 0;
+    background-color: rgb(189, 189, 189);
+    .container{
+        background-color: white;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 4px 3px 5px rgba(46, 46, 46, 0.438);
+        &:hover{
+            box-shadow: 0 5px 5px 8px rgba(46, 46, 46, 0.438);
+            transition: 0.2s;
+
+        }
+        .btn{
+            margin-top: 30px !important;
+        }
+    }
+}
+
 

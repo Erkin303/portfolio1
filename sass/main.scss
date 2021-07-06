@@ -87,7 +87,8 @@ body{
 
 @media  screen and (max-width:780px){
     .smmenu{
-        display: block !important;
+        display: flex !important;
+        justify-content: space-between !important;
     }
     .ulMenu1{
         display: none;
@@ -208,7 +209,33 @@ body {
 
 
 // section2
-
+#carouselExampleControls3{
+    .carousel-item{
+        img{
+            width: 100% !important;
+            height: 400px !important;
+            object-fit: cover;
+        }
+    }
+}
+#carouselExampleControls2{
+    .carousel-item{
+        img{
+            width: 100% !important;
+            height: 400px !important;
+            object-fit: cover;
+        }
+    }
+}
+#carouselExampleControls{
+    .carousel-item{
+        img{
+            width: 100% !important;
+            height: 400px !important;
+            object-fit: cover;
+        }
+    }
+}
 .section2{
     padding: 30px 10px;
     background-repeat: no-repeat;
@@ -231,11 +258,7 @@ body {
         .inTabright{
             margin: 15px;
         }
-    }
-    
-.carousel-inner{
-    margin: 15px;
-}  
+    } 
 }
 
 
@@ -243,7 +266,7 @@ body {
 
 @media screen and (max-width:700px) {
     .img3main{
-        height: 480px !important;
+        height: 530px !important;
     } 
 }
 
@@ -261,7 +284,7 @@ body {
     }
     .img3main{
         position: relative;
-        height: 620px;
+        height: 640px;
         margin: 15px 0;
         padding: 15px;
         background-color: white;
@@ -394,7 +417,7 @@ body {
         position: relative;
         padding: 10px;
         border-radius: 15px;
-        margin: 15px;
+        margin: 15px 0 !important;
         width: 98%;
         &:hover{
             transition: 0.3s;
@@ -435,7 +458,7 @@ body {
     .kidsVideo{
         video{
             width: 100%;
-            margin: 10px;
+            margin: 10px 0;
             border-radius: 15px;
         }
     }
@@ -486,11 +509,13 @@ $z-mid: 0;
 .smmenu {
     position: fixed;
     top: 10px;
-    left: 10px;
+    left: 25px;
     margin-top: 10px;
   text-align: center;
   align-items: center;
   display: flex;
+  width: 85% !important;
+  justify-content: space-between;
   height: 100px;
   justify-content: center;
   z-index: 202;
